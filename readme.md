@@ -10,3 +10,7 @@ This read me guide file is to explain the working of git
 6.git branch -M "branch name" --> to rename branch
 7.git remote add origin "URL of git repository to which file needs to be transferred"
 8.git push origin "branch_name" --> to push the file from stagging area to master
+9.once you done changes and give git status command 
+          The file highlights to be red
+		      you can neglect changes by command git restore
+			  you can add command by git add filename ,If one plus files are updated git add . --> adds all files from loca to staging area
